@@ -4,12 +4,14 @@
 
 
 // Dependencies
-let server = require('./lib/server');
-let workers = require("./lib/workers");
+const server = require('./lib/server');
+const workers = require("./lib/workers");
+const cli = require('./lib/cli');
+
 
 
 // Declare the app
-let app = {};
+const app = {};
 
 //Init function 
 app.init = function(){
@@ -19,6 +21,11 @@ app.init = function(){
 
   // Start the workers
   workers.init();
+
+  // Start the CLI, but make sure it starts last
+  setTimeout( () => {
+    cli.init();
+  }, 50 )
 };
 
 
