@@ -12,3 +12,11 @@ Node Cli is a node application with a command line feature for admin users. The 
 
 - Git
 - GitHub
+
+## Authors
+
+👤 **Mubarak A Ibrahim**
+
+- GitHub: [@Mubarak](https://github.com/imubarak234)
+
+- LinkedIn: [Mubarak](https://www.linkedin.com/in/mubarak-ibrahim-1540a5208/)
