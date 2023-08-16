@@ -7,6 +7,7 @@
 // Container for the frontend application
 const app = {}
 
+// export PATH=$PATH:/usr/local/bin
 // Config
 app.config = {
   'sessionToken' : false
